@@ -1,0 +1,20 @@
+
+[2020-05-28 12:16:56] Traceback (most recent call last):
+  File "D:\PROJECTS\1secmail\browser.py", line 204, in <module>
+    main()
+  File "D:\PROJECTS\1secmail\browser.py", line 76, in main
+    browser = cef.CreateBrowserSync(url=html_to_data_uri(HTML_code),
+  File "D:\PROJECTS\1secmail\browser.py", line 101, in html_to_data_uri
+    html = html.encode("utf-8", "replace")
+AttributeError: 'NoneType' object has no attribute 'encode'
+
+
+[2020-05-28 12:18:03] Traceback (most recent call last):
+  File "D:\PROJECTS\1secmail\browser.py", line 204, in <module>
+    main()
+  File "D:\PROJECTS\1secmail\browser.py", line 76, in main
+    browser = cef.CreateBrowserSync(url=html_to_data_uri(html),
+  File "D:\PROJECTS\1secmail\browser.py", line 101, in html_to_data_uri
+    html = html.encode("utf-8", "replace")
+AttributeError: 'NoneType' object has no attribute 'encode'
+
